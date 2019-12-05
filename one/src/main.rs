@@ -3,12 +3,11 @@ use std::io::{BufRead, BufReader};
 
 fn main() {
     let values = read_file();
+    
     let result_one : i64 = solve_part_one(&values);
-
     println!("Part one result: {}", result_one);
 
     let result_two: i64 = solve_part_two(&values);
-
     println!("Part two result: {}", result_two);
 }
 
